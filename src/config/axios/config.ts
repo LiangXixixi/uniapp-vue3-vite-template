@@ -5,7 +5,7 @@ import type { AxiosConfig } from './types'
 import type { InternalAxiosRequestConfig, AxiosRequestHeaders, AxiosError, AxiosResponse } from 'axios'
 
 // 不需要loading白名单
-const noLoadingWhite: string[] = ['/app/add/burypoint', '/app/user/detailinfo', '/getVersionNumber', '/admin/addor/update/pvuv', '/app/prop/list', '/user/add/pvuv', '/app/ai/ask', '/app/ai/listAITemplate', '/app/ai/listAIKnow', '/app/ai/incrAIChatMessageCount', '/app/ai/refreshAIToken']
+const noLoadingWhite: string[] = ['']
 const uniFunc = useUniFunc()
 const config : AxiosConfig = {
 	baseUrl: {

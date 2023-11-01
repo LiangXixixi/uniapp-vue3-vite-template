@@ -26,9 +26,6 @@ axiosInstance.defaults.adapter = (config) => {
     uni.request({
       method: config.method!.toUpperCase(),
       url: config.baseURL + buildURL(config.url, config.params, config.paramsSerializer),
-      // #ifdef H5
-      // url: `/api/v1${buildURL(config.url)}`,
-      // #endif
       header: config.headers,
       data: config.data,
       dataType: config.dataType,
