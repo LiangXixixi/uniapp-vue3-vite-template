@@ -13,12 +13,7 @@ const abortControllerMap: Map<string, AbortController> = new Map()
 const axiosInstance: AxiosInstance = axios.create({
   ...config,
   // #ifdef APP-PLUS
-	// 徐鹏
-	// baseURL: `http://192.168.29.43:3002/api/v1`
-	// 张涛
-  // baseURL: `http://192.168.29.158:3000/api/v1`,
-  // baseURL: `http://192.168.29.10:30000/userapp/api/v1`,
-	baseURL: `http://s.rtron.cn:30000/userapp/api/v1`
+	baseURL: ``
   // #endif
 
   // #ifdef H5

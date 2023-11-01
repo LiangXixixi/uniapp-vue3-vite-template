@@ -9,12 +9,7 @@ const noLoadingWhite: string[] = ['/app/add/burypoint', '/app/user/detailinfo', 
 const uniFunc = useUniFunc()
 const config : AxiosConfig = {
 	baseUrl: {
-		// 张涛
-		// dev: "http://192.168.29.10:30000",
-		// dev: "http://192.168.29.158:3000",
-		// 徐鹏
-		// dev: "http://192.168.29.43:3002",
-		dev: "http://s.rtron.cn:30000/userapp",
+		dev: "",
 		pro: "",
 		test: ""
 	},
