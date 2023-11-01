@@ -1,0 +1,72 @@
+{
+	"pages": [
+		{
+			"path": "pages/restock/index"
+		},
+		{
+			"path": "pages/login/index"
+		},
+		{
+			"path": "pages/my/index"
+		},
+		{
+			"path": "pages/order/index"
+		}
+	],
+	"easycom": {
+	  "custom": {
+	    "^u--(.*)": "uview-plus/components/u-$1/u-$1.vue",
+	    "^up-(.*)": "uview-plus/components/u-$1/u-$1.vue",
+	    "^u-([^-].*)": "uview-plus/components/u-$1/u-$1.vue"
+	  }
+	},
+	"globalStyle": {
+	  "navigationStyle": "custom",
+		"app-plus": {
+			"bounce": "none"
+		}
+	},
+	"tabBar": {
+	  "iconfontSrc": "/static/fonts/iconfont.ttf",
+	  "color": "#000000",
+	  "selectedColor": "#2B7AFF",
+	  "borderStyle": "#DDDDDD",
+	  "backgroundColor": "#FFFFFF",
+	  "height": "70px",
+	  "list": [
+	    {
+	      "text": "补货",
+	      "pagePath": "pages/restock/index",
+	      "iconfont": {
+	        "text": "\ue614",
+	        "selectedText": "\ue614",
+	        "color": "#000000",
+	        "fontSize": "20px",
+	        "selectedColor": "#2B7AFF"
+	      }
+	    },
+	    {
+	      "text": "我的订单",
+	      "pagePath": "pages/order/index",
+	      "iconfont": {
+	        "text": "\ue615",
+	        "selectedText": "\ue615",
+	        "color": "#000000",
+	        "fontSize": "20px",
+	        "selectedColor": "#2B7AFF"
+	      }
+	    },
+	    {
+	      "text": "我的",
+	      "pagePath": "pages/my/index",
+	      "iconfont": {
+	        "text": "\ue619",
+	        "selectedText": "\ue619",
+	        "color": "#000000",
+	        "fontSize": "20px",
+	        "selectedColor": "#2B7AFF"
+	      }
+	    }
+	  ]
+	}
+}
